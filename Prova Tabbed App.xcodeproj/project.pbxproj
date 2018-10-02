@@ -16,6 +16,9 @@
 		D7E3B01F2163CF3300207179 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E3B01E2163CF3300207179 /* main.m */; };
 		D7E3B0292163CF3300207179 /* Prova_Tabbed_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E3B0282163CF3300207179 /* Prova_Tabbed_AppTests.m */; };
 		D7E3B0342163CF3300207179 /* Prova_Tabbed_AppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E3B0332163CF3300207179 /* Prova_Tabbed_AppUITests.m */; };
+		D7E3B0472163F2F100207179 /* MenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E3B0462163F2F100207179 /* MenuTableViewController.m */; };
+		D7E3B04A2163F5C600207179 /* SlideLeftCustomSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E3B0492163F5C600207179 /* SlideLeftCustomSegue.m */; };
+		D7E3B04D2163F63200207179 /* SlideRightCustomSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E3B04C2163F63200207179 /* SlideRightCustomSegue.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +57,12 @@
 		D7E3B02F2163CF3300207179 /* Prova Tabbed AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Prova Tabbed AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7E3B0332163CF3300207179 /* Prova_Tabbed_AppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Prova_Tabbed_AppUITests.m; sourceTree = "<group>"; };
 		D7E3B0352163CF3300207179 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7E3B0452163F2F100207179 /* MenuTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MenuTableViewController.h; sourceTree = "<group>"; };
+		D7E3B0462163F2F100207179 /* MenuTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MenuTableViewController.m; sourceTree = "<group>"; };
+		D7E3B0482163F5C600207179 /* SlideLeftCustomSegue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SlideLeftCustomSegue.h; sourceTree = "<group>"; };
+		D7E3B0492163F5C600207179 /* SlideLeftCustomSegue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlideLeftCustomSegue.m; sourceTree = "<group>"; };
+		D7E3B04B2163F63200207179 /* SlideRightCustomSegue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SlideRightCustomSegue.h; sourceTree = "<group>"; };
+		D7E3B04C2163F63200207179 /* SlideRightCustomSegue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlideRightCustomSegue.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +119,12 @@
 				D7E3B0102163CF3200207179 /* FirstViewController.m */,
 				D7E3B0122163CF3200207179 /* SecondViewController.h */,
 				D7E3B0132163CF3200207179 /* SecondViewController.m */,
+				D7E3B0452163F2F100207179 /* MenuTableViewController.h */,
+				D7E3B0462163F2F100207179 /* MenuTableViewController.m */,
+				D7E3B0482163F5C600207179 /* SlideLeftCustomSegue.h */,
+				D7E3B0492163F5C600207179 /* SlideLeftCustomSegue.m */,
+				D7E3B04B2163F63200207179 /* SlideRightCustomSegue.h */,
+				D7E3B04C2163F63200207179 /* SlideRightCustomSegue.m */,
 				D7E3B0152163CF3200207179 /* Main.storyboard */,
 				D7E3B0182163CF3300207179 /* Assets.xcassets */,
 				D7E3B01A2163CF3300207179 /* LaunchScreen.storyboard */,
@@ -270,7 +285,10 @@
 				D7E3B0142163CF3200207179 /* SecondViewController.m in Sources */,
 				D7E3B00E2163CF3200207179 /* AppDelegate.m in Sources */,
 				D7E3B01F2163CF3300207179 /* main.m in Sources */,
+				D7E3B04D2163F63200207179 /* SlideRightCustomSegue.m in Sources */,
 				D7E3B0112163CF3200207179 /* FirstViewController.m in Sources */,
+				D7E3B0472163F2F100207179 /* MenuTableViewController.m in Sources */,
+				D7E3B04A2163F5C600207179 /* SlideLeftCustomSegue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
