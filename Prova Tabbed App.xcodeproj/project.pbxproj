@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D7E3B00E2163CF3200207179 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E3B00D2163CF3200207179 /* AppDelegate.m */; };
+		D7E3B0112163CF3200207179 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E3B0102163CF3200207179 /* FirstViewController.m */; };
+		D7E3B0142163CF3200207179 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E3B0132163CF3200207179 /* SecondViewController.m */; };
+		D7E3B0172163CF3200207179 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7E3B0152163CF3200207179 /* Main.storyboard */; };
+		D7E3B0192163CF3300207179 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7E3B0182163CF3300207179 /* Assets.xcassets */; };
+		D7E3B01C2163CF3300207179 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7E3B01A2163CF3300207179 /* LaunchScreen.storyboard */; };
+		D7E3B01F2163CF3300207179 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E3B01E2163CF3300207179 /* main.m */; };
+		D7E3B0292163CF3300207179 /* Prova_Tabbed_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E3B0282163CF3300207179 /* Prova_Tabbed_AppTests.m */; };
+		D7E3B0342163CF3300207179 /* Prova_Tabbed_AppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E3B0332163CF3300207179 /* Prova_Tabbed_AppUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D7E3B0252163CF3300207179 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7E3B0012163CF3200207179 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7E3B0082163CF3200207179;
+			remoteInfo = "Prova Tabbed App";
+		};
+		D7E3B0302163CF3300207179 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7E3B0012163CF3200207179 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7E3B0082163CF3200207179;
+			remoteInfo = "Prova Tabbed App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D7E3B0092163CF3200207179 /* Prova Tabbed App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Prova Tabbed App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7E3B00C2163CF3200207179 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D7E3B00D2163CF3200207179 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D7E3B00F2163CF3200207179 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		D7E3B0102163CF3200207179 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		D7E3B0122163CF3200207179 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		D7E3B0132163CF3200207179 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		D7E3B0162163CF3200207179 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D7E3B0182163CF3300207179 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D7E3B01B2163CF3300207179 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D7E3B01D2163CF3300207179 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7E3B01E2163CF3300207179 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D7E3B0242163CF3300207179 /* Prova Tabbed AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Prova Tabbed AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7E3B0282163CF3300207179 /* Prova_Tabbed_AppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Prova_Tabbed_AppTests.m; sourceTree = "<group>"; };
+		D7E3B02A2163CF3300207179 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7E3B02F2163CF3300207179 /* Prova Tabbed AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Prova Tabbed AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7E3B0332163CF3300207179 /* Prova_Tabbed_AppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Prova_Tabbed_AppUITests.m; sourceTree = "<group>"; };
+		D7E3B0352163CF3300207179 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7E3B0062163CF3200207179 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7E3B0212163CF3300207179 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7E3B02C2163CF3300207179 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D7E3B0002163CF3200207179 = {
+			isa = PBXGroup;
+			children = (
+				D7E3B00B2163CF3200207179 /* Prova Tabbed App */,
+				D7E3B0272163CF3300207179 /* Prova Tabbed AppTests */,
+				D7E3B0322163CF3300207179 /* Prova Tabbed AppUITests */,
+				D7E3B00A2163CF3200207179 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D7E3B00A2163CF3200207179 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7E3B0092163CF3200207179 /* Prova Tabbed App.app */,
+				D7E3B0242163CF3300207179 /* Prova Tabbed AppTests.xctest */,
+				D7E3B02F2163CF3300207179 /* Prova Tabbed AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7E3B00B2163CF3200207179 /* Prova Tabbed App */ = {
+			isa = PBXGroup;
+			children = (
+				D7E3B00C2163CF3200207179 /* AppDelegate.h */,
+				D7E3B00D2163CF3200207179 /* AppDelegate.m */,
+				D7E3B00F2163CF3200207179 /* FirstViewController.h */,
+				D7E3B0102163CF3200207179 /* FirstViewController.m */,
+				D7E3B0122163CF3200207179 /* SecondViewController.h */,
+				D7E3B0132163CF3200207179 /* SecondViewController.m */,
+				D7E3B0152163CF3200207179 /* Main.storyboard */,
+				D7E3B0182163CF3300207179 /* Assets.xcassets */,
+				D7E3B01A2163CF3300207179 /* LaunchScreen.storyboard */,
+				D7E3B01D2163CF3300207179 /* Info.plist */,
+				D7E3B01E2163CF3300207179 /* main.m */,
+			);
+			path = "Prova Tabbed App";
+			sourceTree = "<group>";
+		};
+		D7E3B0272163CF3300207179 /* Prova Tabbed AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				D7E3B0282163CF3300207179 /* Prova_Tabbed_AppTests.m */,
+				D7E3B02A2163CF3300207179 /* Info.plist */,
+			);
+			path = "Prova Tabbed AppTests";
+			sourceTree = "<group>";
+		};
+		D7E3B0322163CF3300207179 /* Prova Tabbed AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D7E3B0332163CF3300207179 /* Prova_Tabbed_AppUITests.m */,
+				D7E3B0352163CF3300207179 /* Info.plist */,
+			);
+			path = "Prova Tabbed AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7E3B0082163CF3200207179 /* Prova Tabbed App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7E3B0382163CF3300207179 /* Build configuration list for PBXNativeTarget "Prova Tabbed App" */;
+			buildPhases = (
+				D7E3B0052163CF3200207179 /* Sources */,
+				D7E3B0062163CF3200207179 /* Frameworks */,
+				D7E3B0072163CF3200207179 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Prova Tabbed App";
+			productName = "Prova Tabbed App";
+			productReference = D7E3B0092163CF3200207179 /* Prova Tabbed App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D7E3B0232163CF3300207179 /* Prova Tabbed AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7E3B03B2163CF3300207179 /* Build configuration list for PBXNativeTarget "Prova Tabbed AppTests" */;
+			buildPhases = (
+				D7E3B0202163CF3300207179 /* Sources */,
+				D7E3B0212163CF3300207179 /* Frameworks */,
+				D7E3B0222163CF3300207179 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7E3B0262163CF3300207179 /* PBXTargetDependency */,
+			);
+			name = "Prova Tabbed AppTests";
+			productName = "Prova Tabbed AppTests";
+			productReference = D7E3B0242163CF3300207179 /* Prova Tabbed AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D7E3B02E2163CF3300207179 /* Prova Tabbed AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7E3B03E2163CF3300207179 /* Build configuration list for PBXNativeTarget "Prova Tabbed AppUITests" */;
+			buildPhases = (
+				D7E3B02B2163CF3300207179 /* Sources */,
+				D7E3B02C2163CF3300207179 /* Frameworks */,
+				D7E3B02D2163CF3300207179 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7E3B0312163CF3300207179 /* PBXTargetDependency */,
+			);
+			name = "Prova Tabbed AppUITests";
+			productName = "Prova Tabbed AppUITests";
+			productReference = D7E3B02F2163CF3300207179 /* Prova Tabbed AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7E3B0012163CF3200207179 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Alfonso Maria Tesauro";
+				TargetAttributes = {
+					D7E3B0082163CF3200207179 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					D7E3B0232163CF3300207179 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = D7E3B0082163CF3200207179;
+					};
+					D7E3B02E2163CF3300207179 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = D7E3B0082163CF3200207179;
+					};
+				};
+			};
+			buildConfigurationList = D7E3B0042163CF3200207179 /* Build configuration list for PBXProject "Prova Tabbed App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D7E3B0002163CF3200207179;
+			productRefGroup = D7E3B00A2163CF3200207179 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7E3B0082163CF3200207179 /* Prova Tabbed App */,
+				D7E3B0232163CF3300207179 /* Prova Tabbed AppTests */,
+				D7E3B02E2163CF3300207179 /* Prova Tabbed AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7E3B0072163CF3200207179 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7E3B01C2163CF3300207179 /* LaunchScreen.storyboard in Resources */,
+				D7E3B0192163CF3300207179 /* Assets.xcassets in Resources */,
+				D7E3B0172163CF3200207179 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7E3B0222163CF3300207179 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7E3B02D2163CF3300207179 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7E3B0052163CF3200207179 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7E3B0142163CF3200207179 /* SecondViewController.m in Sources */,
+				D7E3B00E2163CF3200207179 /* AppDelegate.m in Sources */,
+				D7E3B01F2163CF3300207179 /* main.m in Sources */,
+				D7E3B0112163CF3200207179 /* FirstViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7E3B0202163CF3300207179 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7E3B0292163CF3300207179 /* Prova_Tabbed_AppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7E3B02B2163CF3300207179 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7E3B0342163CF3300207179 /* Prova_Tabbed_AppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D7E3B0262163CF3300207179 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7E3B0082163CF3200207179 /* Prova Tabbed App */;
+			targetProxy = D7E3B0252163CF3300207179 /* PBXContainerItemProxy */;
+		};
+		D7E3B0312163CF3300207179 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7E3B0082163CF3200207179 /* Prova Tabbed App */;
+			targetProxy = D7E3B0302163CF3300207179 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D7E3B0152163CF3200207179 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7E3B0162163CF3200207179 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D7E3B01A2163CF3300207179 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7E3B01B2163CF3300207179 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D7E3B0362163CF3300207179 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D7E3B0372163CF3300207179 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D7E3B0392163CF3300207179 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65G6AG8SA4;
+				INFOPLIST_FILE = "Prova Tabbed App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alfonsotesauro.Prova-Tabbed-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D7E3B03A2163CF3300207179 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65G6AG8SA4;
+				INFOPLIST_FILE = "Prova Tabbed App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alfonsotesauro.Prova-Tabbed-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D7E3B03C2163CF3300207179 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65G6AG8SA4;
+				INFOPLIST_FILE = "Prova Tabbed AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alfonsotesauro.Prova-Tabbed-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Prova Tabbed App.app/Prova Tabbed App";
+			};
+			name = Debug;
+		};
+		D7E3B03D2163CF3300207179 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65G6AG8SA4;
+				INFOPLIST_FILE = "Prova Tabbed AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alfonsotesauro.Prova-Tabbed-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Prova Tabbed App.app/Prova Tabbed App";
+			};
+			name = Release;
+		};
+		D7E3B03F2163CF3300207179 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65G6AG8SA4;
+				INFOPLIST_FILE = "Prova Tabbed AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alfonsotesauro.Prova-Tabbed-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Prova Tabbed App";
+			};
+			name = Debug;
+		};
+		D7E3B0402163CF3300207179 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65G6AG8SA4;
+				INFOPLIST_FILE = "Prova Tabbed AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alfonsotesauro.Prova-Tabbed-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Prova Tabbed App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7E3B0042163CF3200207179 /* Build configuration list for PBXProject "Prova Tabbed App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7E3B0362163CF3300207179 /* Debug */,
+				D7E3B0372163CF3300207179 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7E3B0382163CF3300207179 /* Build configuration list for PBXNativeTarget "Prova Tabbed App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7E3B0392163CF3300207179 /* Debug */,
+				D7E3B03A2163CF3300207179 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7E3B03B2163CF3300207179 /* Build configuration list for PBXNativeTarget "Prova Tabbed AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7E3B03C2163CF3300207179 /* Debug */,
+				D7E3B03D2163CF3300207179 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7E3B03E2163CF3300207179 /* Build configuration list for PBXNativeTarget "Prova Tabbed AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7E3B03F2163CF3300207179 /* Debug */,
+				D7E3B0402163CF3300207179 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D7E3B0012163CF3200207179 /* Project object */;
+}
