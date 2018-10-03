@@ -21,7 +21,7 @@
     transition.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut];
     transition.type = kCATransitionPush;
     transition.subtype = kCATransitionFromRight;
-    [srcViewController.view.window.layer addAnimation:transition forKey:nil];
+    [srcViewController.view.layer addAnimation:transition forKey:nil];
     
     [srcViewController presentViewController:destViewController animated:NO completion:nil];
 }

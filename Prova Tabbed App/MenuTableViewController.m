@@ -22,9 +22,11 @@
     
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
-    
+    self.view.backgroundColor = [UIColor whiteColor];
+
     self.tableView.backgroundColor = [UIColor whiteColor];
-    
+    self.navigationController.view.backgroundColor = [UIColor whiteColor];
+    self.navigationController.navigationBar.translucent = NO; 
 }
 
 #pragma mark - Table view data source
@@ -73,7 +75,7 @@
 
 - (IBAction)backButton:(id)sender {
     CATransition *transition = [CATransition animation];
-    transition.duration = 0.3;
+    transition.duration = 5.0;
     transition.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut];
     transition.type = kCATransitionPush;
     transition.subtype = kCATransitionFromRight;

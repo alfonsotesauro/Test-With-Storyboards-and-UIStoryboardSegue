@@ -130,7 +130,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Tab bar"/>
                                 <connections>
-                                    <segue destination="49e-Tb-3d3" kind="custom" customClass="SlideLeftCustomSegue" id="xka-YB-D8y"/>
+                                    <action selector="backButton:" destination="LdD-bQ-kvm" eventType="touchUpInside" id="C3J-Oc-30K"/>
                                 </connections>
                             </button>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="odK-rz-50u">
